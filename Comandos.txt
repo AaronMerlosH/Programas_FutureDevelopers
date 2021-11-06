@@ -1,0 +1,53 @@
+*********GIT***************
+
+crear carpeta:
+	mkdir "Nombre carpeta"
+
+accesar a carpeta
+	cd "Nombre carpeta"
+
+crear repositorio ya ddentro de la carpeta:
+	git init
+
+listar el contenido del directorio posterior a crear repo:
+	ls -la
+
+checar status de espera:
+	git status
+
+crear y escribir en archivo de texto:
+	cat > ejemplo.txt
+
+posterior a crear y escribir en archivo se sube al repo:
+	git add . [o]  git add ejemplo.txt
+
+crear commit:
+	git commit -m "Commit ejemplo"
+
+ver diferencias cuando se reescribe en archivo:
+	git diff
+
+cambiar commit:
+	git commit --amend -m "Commit configurado ejemplo"
+
+ver detalles de ultima modificacion:
+	git show
+
+ver historial de cambios:
+	git log
+
+clonar repositorio de la nube a onpremise
+	git clone url_del_repo_ejemplo.com
+
+agregar nueva rama al repositorio master o main
+	git checkout -b "nombre_rama_ejemplo"
+
+crear commit pero para una rama de main git add + git commit
+	git commit -am "Añadido nuevo autor."
+
+subir contendo local a Github en nube
+	git push origin "nombre_rama_ejemplo"
+
+
+	
+
